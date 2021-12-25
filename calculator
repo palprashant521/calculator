@@ -1,0 +1,37 @@
+class Calculator:
+    
+    def __init__(self , a , b , c , d):
+        
+        self.a = a
+        self.b = b
+        self.c = c
+        self.d = d
+        
+    def add(self):
+        
+        suma = self.a + self.b + self.c + self.d
+        
+        return suma
+    
+    def sub(self):
+        
+        suba = self.a - self.b - self.c - self.d
+        return suba
+    
+    def multiply(self):
+        
+        self.multiple = self.a * self.b * self.c * self.d
+        
+        return self.multiple
+    
+    def devide(self):
+        
+        self.devide = self.a / self.b / self.c / self.d
+        return self.devide
+        
+    k = Calculator(2,2,2,2)
+    
+    k.add()
+    k.sub()
+    k.multiply()
+    k.devide()
